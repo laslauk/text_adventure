@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8"> 
+<head>
+	<title>Games</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+	<link rel=stylesheet type="text/css" href="style.css">
+</head>
+<body>
+<div id="gameView">
+
+
+	<div class="container"> <!-- Main view -->
+		<div class="row" id="location-header">
+			<div class="mx-auto">
+				<h1 id="locationName"> Sijainti: </h1>
+				<p id="locationDescription"> </p>
+			</div>
+		</div>
+
+
+    <div class="row">         <div class="col-3 " id="left-sidebar">
+<div id="mapView">                 <!-- Generate with js -->
+<table class="table" id="mapTable">                 <tbody>                 <tr>
+<td>&nbsp;</td>                 <td>&nbsp;</td>
+<td>&nbsp;</td>                 </tr>                 <tr>
+<td>&nbsp;</td>                 <td>&nbsp;</td>
+<td>&nbsp;</td>                 </tr>                 <tr>
+<td>&nbsp;</td>                 <td>&nbsp;</td>
+<td>&nbsp;</td>                 </tr>                 </tbody>
+</table>              </div>
+
+		
+			<div id="inventoryView">
+					<ul id="playerInventory"></ul>
+			</div>
+
+
+
+		</div>
+
+		
+		<div class="col-6" id="middle-view">
+			<div class="game-view">
+				<img id="locationImage" src=""> 
+			</div>
+
+			<div class="placeActionView">
+				<p id="actionLog"> </p>
+			</div>
+
+
+		</div>
+
+
+
+
+
+
+
+		<div class="col-3" id="right-sidebar">
+			<div id="locationInfo">
+			<h4> Tavarat </h4>
+			<ul id="itemList"> </ul>
+			<h4> Mielenkiinnon kohteita </h4>
+			<ul id="poiList"> </ul>
+		</div>
+
+		</div>
+	</div>
+
+	<div class="row">
+		<div class="d-flex justify-content-center col-12" id="input-row">
+			<div id="input-div">
+				<button> Enter </button>
+				<input id="input" placeholder="Enter action...">
+			</div>
+		</div>
+	</div>
+
+
+	</div>
+</div>
+
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+ <script type="text/javascript" src="code.js"></script>
+</body>
+</html>

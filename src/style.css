@@ -1,0 +1,123 @@
+#locationImage{
+
+	width:100%;
+}
+
+body{
+	min-width:900px;
+}
+
+
+#gameView{
+
+
+}
+
+#input-row
+{
+padding:10px;
+}
+
+#input{
+	padding:5px;
+	width:42%;
+
+}
+
+#inventoryView{
+
+	min-height:30%;
+	min-width:200px;
+	background-color:#a3f2f7;
+
+
+}
+
+#input-div{
+	text-align:center;
+	width:100%;
+}
+
+.blocked{
+	color:red;
+}
+
+.picked{
+	color:green;
+}
+
+#middle-view{
+	background-color:#e3f4f0;
+
+	min-width:300px;
+
+}
+
+.placeActionView{
+
+	
+	min-height:100px;
+	background-color:#f3f3f3;
+	padding:10px;
+	border:2px solid black;
+
+}
+
+
+#locationInfo{
+
+	background-color:red;
+}
+
+
+
+#actionLogView > ul {
+		overflow-y:scroll;
+		height:inherit;
+}
+
+#mapView{
+	
+		background:url(images/map.png) no-repeat;
+		background-size:contain;
+		background-color:#e3f250;
+		height:200px;
+		min-width:200px;
+	
+}
+
+#mapTable{
+	float:left;
+	height:100%;
+	width:100%;
+}
+
+#mapTable{
+
+}
+
+#mapImage{
+background-repeat:no-repeat;
+}
+ 	
+
+#rightView{
+	background-color:yellow;
+	float:left;
+}
+
+#helpDiv{
+	
+}
+
+
+@media (min-width: 0px) and (max-width: 2500px) {
+   .container {
+      max-width: 960px;
+   }   
+}
+
+#playerInventory > h3
+{
+	font-size:1.2em;
+}
